@@ -1,0 +1,536 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    /* border: 1px solid; */
+    display: flex;
+}
+
+header .box{
+    height: 100px;
+}
+
+header .box1{
+    width: 20%;
+    background-color: aquamarine;
+    background-image: url(/logo.png);
+    background-size: 100% 100%;
+}
+
+header .box2{
+    width: 60%;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+
+}
+
+header .box3{
+    width: 20%;
+    /* background-color: palevioletred; */
+    background-image: url(/naac1.png);
+    background-size: 100% 100%;
+    ba
+}
+
+input{
+    margin-top: 10px;
+}
+
+.navbar{
+    background-color:#4da6ff;
+    width:100%;
+    height: 50px;
+    margin: 0px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    float: left;
+    width: 217px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.navbar ul li a:hover{
+    background-color:gray;
+    color: white
+}
+
+.navbar ul ul{
+    position: absolute;
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+.navbar ul li:hover ul{
+    display: block;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .slider{
+    width: 70%;
+    height: 300px;
+    background-image: url(/Online_Admission.jpg);
+    background-size: 100% 100%;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+main .slider2{
+    width: 30%;
+    height: 300px;
+    background-image: url(/1\ 2023-2.jpeg);
+    background-size: 100% 100%;
+    animation-name: slide2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    justify-content: center;
+
+}
+
+@keyframes slide{
+    0%{
+       background-image: url(/Online_Admission.jpg);
+    }
+    50%{
+        background-image: url(/banner-5.jpg);
+    }
+    100%{
+        background-image: url(/Gyandhara_banner.jpg);
+    }
+}
+
+@keyframes slide2{
+    0%{
+       background-image: url(/1\ 2023-2.jpeg);
+    }
+    50%{
+       background-image: url(/2\ 2023-1.jpeg);
+    }
+    100%{
+         background-image: url(/3-2.jpeg);
+    }
+}
+
+marquee{
+    font-size: 20px;
+    color:#1975d1;
+}
+
+.title{
+    margin-left: auto;
+}
+
+.row{
+    background-color:#C0C0C0;
+    font-size: larger;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.row:hover{
+    background-color: grey;
+    color: #2952a3;
+}
+
+.para1{
+    width: 50%;
+    height: 300px;
+    background: linear-gradient(white,lightgrey,grey);
+}
+
+.para2{
+    width: 50%;
+    height: 300px;
+    background: linear-gradient(white,lightgrey,white)
+}
+
+.pr0{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.pr1{
+    padding-top: 15px;
+}
+
+.pr{
+    padding-bottom: 20px;
+}
+
+.navbar2{
+    background-color: gray;
+    height: 52px;
+    display: flex;
+}
+
+.fa-user{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.fa-headphones{
+    font-size: 40px;
+    margin-left:20px;
+    margin-top: 5px;
+}
+
+.fa-calendar-days{
+    font-size: 40px;
+    margin-left:20px;
+    margin-top: 5px;
+}
+
+h4{
+    font-size: 20px;
+    margin-left:250px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+form{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+input{
+    width: 300px;
+    margin: 10px 0;
+    margin-left: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+    transition: none;
+}
+
+input:focus{
+    border-color: #1975d1;
+    box-shadow: 0 0 8px 0 #1975d1;
+}
+
+select{
+    margin-left: 75px;
+    width: 300px;
+    padding: 5px;
+}
+
+input[type="date"]{
+    margin-left: 70px;
+}
+
+input[type="submit"]{
+    width: 100px;
+    margin-left: 180px;
+    margin-top: -30px;
+}
+
+.alert{
+    width: 100%;
+    height: 250px;
+    background-color: lemonchiffon;
+    display: flex;
+}
+
+.lin{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.lin1{
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.sublin2{
+       margin-top: 50px;
+}
+
+.sublin4{
+    margin-top: 50px;
+}
+
+.sublin5{
+    margin-top: 50px;
+}
+
+img{
+    height: 80px;
+}
+
+.lin a{
+    text-decoration: none;
+}
+
+.sublin2 a{
+    color: red;
+}
+
+.lin1 a{
+    text-decoration: none;
+}
+
+.lin a:hover{
+    text-decoration: underline;
+}
+
+.lin1 a:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: #1975d1;
+}
+
+.alpha1{
+    width: 50%;
+    height: 220px;
+    /* background-color: aquamarine; */
+    background-image: url(/map.jpg);
+    background-image: no-repeat;
+}
+
+.alpha2{
+    width: 50%;
+    height: 220px;
+    background-color:white;
+    overflow: auto;
+}
+
+.one{
+    font-size: 20px;
+    color: #1975d1;
+    margin-left: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.over{
+    margin-left: 30px;
+}
+
+.over a{
+    text-decoration: none;
+    color: #1975d1;
+}
+
+.over a:hover{
+    text-decoration: underline;
+}
+
+.section{
+    width: 100%;
+    height: 500px;
+    /* background-color: #4da6ff; */
+    display: flex;
+    background: linear-gradient( #3366cc,#2952a3,#3366cc);
+}
+
+h3{
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.pos a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: small;
+}
+
+.pos a:hover{
+    text-decoration: underline;
+}
+
+.pos1 a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: small;
+}
+
+.pos1 li{
+    list-style-type: none;
+}
+
+.pos1 a:hover{
+    text-decoration: underline;
+}
+
+.pos2 a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: small;
+}
+
+.pos2 li{
+    list-style-type: none;
+}
+
+.pos2 a:hover{
+    text-decoration: underline;
+}
+
+.pos3 a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: small;
+}
+
+.pos3 li{
+    list-style-type: none;
+}
+
+.pos3 a:hover{
+    text-decoration: underline;
+}
+
+.sec2{
+    margin-left: 30px;
+}
+
+.sec3{
+    margin-left: 30px;
+}
+
+.sec4{
+    margin-left: 30px;
+}
+
+h6{
+    text-align: center;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+@media (max-width:1080px){
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    header .box1,header .box2,header .box3{
+        width: 100%
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        background-color:#4da6ff;
+        height: 300px;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;  
+}
+   .direct{
+    display: flex;
+    flex-direction: column;
+   }
+   .para1{
+    width: 100%;
+    height: 350px;
+   }
+   .para2{
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+   }
+   h4{
+    font-size: 20px;
+    margin-left:100px;
+    margin-top: 5px;
+    font-weight: lighter;
+}
+form{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+input{
+    margin: 10px 0;
+    padding: 5px;
+}
+input[type="date"]{
+    margin-left: 0px;
+}
+
+input[type="submit"]{
+    margin-left: 0px;
+}
+
+select{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.alert{
+    width: 100%;
+    height: 420px;
+    background-color: lemonchiffon;
+    display: flex;
+}
+.lin{
+    margin-left: 0px;
+}
+.lin1{
+    margin-left: 20px;
+}
+
+.direct1{
+    display: flex;
+    flex-direction: column;
+}
+.alpha1{
+    width: 100%;
+}
+.alpha2{
+    width: 100%;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    height: 1750px;
+}
+.sec2,.sec3,.sec4{
+    margin-left: 0;
+}
+}
